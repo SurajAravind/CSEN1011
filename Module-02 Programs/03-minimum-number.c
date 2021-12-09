@@ -3,46 +3,43 @@
 Algorithm:
 01. Start
 02. Accept three numbers a, b, c.
-03. If (year % 400 == 0) Display "Leap Year"
-04. Else if (year % 100 == 0) Display "Not Leap Yaer"
-05. Else if (year % 4 == 0) Display "Leap Year"
-06. Else Display "Not Leap Year"
-07. Stop  */
+03. If (a < b and b < c) Display "Smallest a"
+04. Else if ( a > b and b > c) Display "Smallest c"
+05. Else Display "Smallest b"
+06. Stop  */
 
 # include <stdio.h>
 int main() {
-  int year;
+  int a, b, c;
   
-  printf("Enter year: " );
-  scanf("%d", &year);
+  printf("Enter three numbers (a:b:c) :  " );
+  scanf("%d:%d:%d", &a, &b, &c);
   
-  if (year % 400 == 0) 
-    printf("Leap Year\n");
-  else if (year % 100 == 0)
-    printf("Not Leap Year\n");
-  else if (year % 4 == 0)
-    printf("Leap Year\n");
+  if (a < b && b < c) 
+    printf("Smallest  is %d\n", a);
+  else if (a > b && b > c)
+    printf("Smallest  is %d\n", c);
   else 
-    printf("Not Leap Year\n");
+    printf("Smallest  is %d\n", b);
+  
   return 0;
 }
 
 /* Output
 
-~/CSEN1011-5/Module-02 Programs$ gcc 02-leap-yaer.c 
-~/CSEN1011-5/Module-02 Programs$ ./a.out
-Enter year: 1996
-Leap Year
+~/CSEN1011-6/Module-02 Programs$ gcc 03-minimum-number.c 
+~/CSEN1011-6/Module-02 Programs$ ./a.out
+Enter three numbers (a:b:c) :  1:2:3
+Smallest  is 1
+~/CSEN1011-6/Module-02 Programs$ ./a.out
+Enter three numbers (a:b:c) :  3:2:1
+Smallest  is 1
+~/CSEN1011-6/Module-02 Programs$ ./a.out
+Enter three numbers (a:b:c) :  1:3:2
+Smallest  is 3
 
-~/CSEN1011-5/Module-02 Programs$ ./a.out
-Enter year: 1900
-Not Leap Year
-
-~/CSEN1011-5/Module-02 Programs$ ./a.out
-Enter year: 2000 
-Leap Year
 
 Learnings:
-Nested if else statements
+What is wrong with the logic?
 */
 
