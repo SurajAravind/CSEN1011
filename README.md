@@ -25,5 +25,14 @@ This repo contains all programs practiced for the course titled "Problem Solving
 [09-patterns-3.c](Module-02%20Programs/09-patterns-3.c)  
 [10-gcd.c](Module-02%20Programs/10-gcd.c)  
 
+## 03. Module-03 Folder Contents
+[01-series-sum.c](Module-03%20Programs/01-series-sum.c)  
+[02-prime-amstrong-perfect-functions.c](Module-03%20Programs/02-prime-amstrong-perfect-functions.c)  
+[03-call-by-value-reference.c](Module-03%20Programs/03-call-by-value-reference.c)  
+[04-gcd-lcm-recursive.c](Module-03%20Programs/04-gcd-lcm-recursive.c)  
+[factorial-procedure.rap](Module-03%20Programs/factorial-procedure.rap)  
+
+
+
 
 
