@@ -6,7 +6,7 @@
 
 int main(void) {
   
-  int matrix_1[ROW_1][COL_1];
+  int matrix_1[ROW_1[COL_1]];
   int matrix_2[ROW_2][COL_2];
   int matrix_3[ROW_1][COL_2];
   
