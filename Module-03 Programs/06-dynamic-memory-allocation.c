@@ -7,12 +7,13 @@
 # include <stdio.h>
 # include <stdlib.h>
 int main(){
+  
   int *ptr; 
   int n;
   printf("Enter the number of integers U want: ");
   scanf("%d", &n);
 
-  ptr = malloc(n * sizeof(*ptr));
+  /*ptr = malloc(n * sizeof(*ptr));
   //printf("Number of bytes occupied by the integer pointer = %d", sizeof(*ptr));
   //printf("\n Number of bytes allocated by the malloc function = %d", sizeof(ptr));  Needs to be explored
 
@@ -24,5 +25,24 @@ int main(){
   for (int index=0; index < n; index ++)
     printf("%d\t",*(ptr + index));
    printf("\n"); 
-   return 0;
+   */
+
+   // calloc 
+
+  ptr = (int *) calloc(n, sizeof(int));
+  // Initalize all integers to Zero
+  for (int index=0; index < n; index ++)
+    printf("%d\t",*(ptr + index));
+  printf("\n"); 
+
+  printf("\nEnter new size of the memory block: ");
+  scanf("%d", &n);
+  ptr = realloc(ptr, n);
+
+  for (int index=0; index < n; index ++)
+    printf("%d\t",*(ptr + index));
+  printf("\n"); 
+
+  free(ptr);  //frees up the memory space 
+  return 0;   
 }
