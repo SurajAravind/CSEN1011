@@ -55,7 +55,14 @@ This repo contains all programs practiced for the course titled "Problem Solving
 [03-nested-structures.c](Module-05%20Programs/03-nested-structures.c)  
 [04-files-program.c](Module-05%20Programs/04-files-program.c)  
 [05-union.c](Module-05%20Programs/05-union.c)  
-[06-files-words-chars.c](Module-05%20Programs/06-files-words-chars.c)   
+[06-files-words-chars.c](Module-05%20Programs/06-files-words-chars.c)    
+  
+## Summative-Assessment-01 contents
+[01-lower-upper-case.c](Summative-Assessment-01%20Programs/01-lower-upper-case.c)  
+[02-sum-digits-factorial.c](Summative-Assessment-01%20Programs/02-sum-digits-factorial.c)  
+[03-collatz-sequence.c](Summative-Assessment-01%20Programs/03-collatz-sequence.c)  
+[04-fibonacci-series.c](Summative-Assessment-01%20Programs/04-fibonacci-series.c)  
+[05-rotation-prime.c](Summative-Assessment-01%20Programs/05-rotation-prime.c)  
 
 
 
