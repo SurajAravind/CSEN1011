@@ -32,6 +32,12 @@ This repo contains all programs practiced for the course titled "Problem Solving
 [04-gcd-lcm-recursive.c](Module-03%20Programs/04-gcd-lcm-recursive.c)  
 [factorial-procedure.rap](Module-03%20Programs/factorial-procedure.rap)  
 
+## 04. Module-03 Folder Contents
+[00-Array-example.c](Module-04%20Programs/00-Array-example.c)  
+[01-linear-search.c](Module-04%20Programs/01-linear-search.c)  
+[02-min-max-element.c](Module-04%20Programs/02-min-max-element.c)  
+[03-bubble-sort.c](Module-04%20Programs/03-bubble-sort.c)  
+[04-binary-search.c](Module-04%20Programs/04-binary-search.c)  
 
 
 
