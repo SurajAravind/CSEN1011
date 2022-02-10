@@ -64,7 +64,11 @@ This repo contains all programs practiced for the course titled "Problem Solving
 [04-fibonacci-series.c](Summative-Assessment-01/04-fibonacci-series.c)  
 [05-rotation-prime.c](Summative-Assessment-01/05-rotation-prime.c)  
 
-
+## Summative-Assessment-02 contents
+[01-celing-number.c](Summative-Assessment-02/01-celing-number.c)  
+[02-stocks-profit.c](Summative-Assessment-02/02-stocks-profit.c)  
+[03-duplicate-element.c](Summative-Assessment-02/03-duplicate-element.c)  
+[04-binary-to-decimal.c](Summative-Assessment-02/04-binary-to-decimal.c)  
 
 
 
