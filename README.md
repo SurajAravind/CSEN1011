@@ -32,13 +32,22 @@ This repo contains all programs practiced for the course titled "Problem Solving
 [04-gcd-lcm-recursive.c](Module-03%20Programs/04-gcd-lcm-recursive.c)  
 [factorial-procedure.rap](Module-03%20Programs/factorial-procedure.rap)  
 
-## 04. Module-03 Folder Contents
+## 04. Module-04 Folder Contents
 [00-Array-example.c](Module-04%20Programs/00-Array-example.c)  
 [01-linear-search.c](Module-04%20Programs/01-linear-search.c)  
 [02-min-max-element.c](Module-04%20Programs/02-min-max-element.c)  
 [03-bubble-sort.c](Module-04%20Programs/03-bubble-sort.c)  
 [04-binary-search.c](Module-04%20Programs/04-binary-search.c)  
-
+[05-multi-dimensional-arrays.c](Module-04%20Programs/05-multi-dimensional-arrays.c)  
+[01-linear-search.c](Module-04%20Programs/01-linear-search.c)  
+[06-matrix-multiplication.c](Module-04%20Programs/06-matrix-multiplication.c)  
+[07-transpose_matrix.c](Module-04%20Programs/07-transpose_matrix.c)  
+[08-arrays-pointers.c](Module-04%20Programs/08-arrays-pointers.c)  
+[09-array-passing-function.c](Module-04%20Programs/09-array-passing-function.c)  
+[10-vowels-consonants-count.c](Module-04%20Programs/10-vowels-consonants-count.c)  
+[11-reverse-string.c](Module-04%20Programs/11-reverse-string.c)  
+[12-string-sort.c](Module-04%20Programs/12-string-sort.c)  
+[13-unformatted-io-functions.c](Module-04%20Programs/13-unformatted-io-functions.c)  
 
 
 
